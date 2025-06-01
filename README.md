@@ -1,5 +1,17 @@
 # CHROME-EXTENSION-FOR-PRODUCTIVITY-MANAGEMENT
 
+COMPANY  : CODTECH IT SOLUTIONS
+
+NAME     : MOPARTHI MANASA
+
+INTERN ID: CT08DM984
+
+DOMAIN   : MERN STACK WEB DEVELOPMENT
+
+DURATION : 8 WEEKS
+
+MENTOR   : NEELA SANTOSH
+
 # Description
 
 A powerful Chrome extension designed to help users track their online time, block distracting websites, and boost productivity. It leverages the MERN stack — MongoDB, Express, React, and Node.js — to deliver robust backend services including secure data storage, user management, and analytics processing. The extension seamlessly integrates with Chrome Extension APIs to monitor browsing activity in real-time, enabling precise time tracking and dynamic blocking of distractions directly within the browser. This combination of modern web technologies and browser capabilities creates a smooth, responsive experience that empowers users to take control of their digital habits and maximize focus.
