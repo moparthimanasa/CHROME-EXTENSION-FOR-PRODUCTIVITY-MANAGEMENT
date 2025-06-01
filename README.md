@@ -238,10 +238,20 @@ Offer AI-based tips for reducing distractions and optimizing work cycles.
 
 # Output
 
-we have to open the tab and go to extensions and click on productivity management extension and then click on view report 
+**🔍 How to View Your Productivity Report**
+
+To access your productivity insights:
+
+Open a new browser tab.
+
+Navigate to Extensions.
+
+Click on the Productivity Management extension.
+
+Select View Report.
 
 ![Image](https://github.com/user-attachments/assets/a556d70b-4052-4cdd-a765-a1f1249eb601)
 
-i have visited all these websites you can see the report by productivity management extension
+As shown in the report below, the extension has tracked all the websites I’ve visited, giving a clear overview of how my time was spent online:
 
 ![Image](https://github.com/user-attachments/assets/f54d89f5-814f-4cbe-8183-4c533a10ca40)
