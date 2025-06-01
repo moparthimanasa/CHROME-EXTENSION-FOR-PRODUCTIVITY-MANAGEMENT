@@ -240,4 +240,8 @@ Offer AI-based tips for reducing distractions and optimizing work cycles.
 
 we have to open the tab and go to extensions and click on productivity management extension and then click on view report 
 
+![Image](https://github.com/user-attachments/assets/a556d70b-4052-4cdd-a765-a1f1249eb601)
+
+i have visited all these websites you can see the report by productivity management extension
+
 
