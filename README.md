@@ -6,29 +6,29 @@ A powerful Chrome extension designed to help users track their online time, bloc
 
 # 🚀 Features
 
-# 🔍 Real-Time Tab Monitoring
+**🔍 Real-Time Tab Monitoring**
 
 Automatically detects and logs time spent on each website.
 
 Tracks each active tab switch and records time spent before the switch.
 
-# 🛑 Website Blocking
+**🛑 Website Blocking**
 Allows users to define a list of distracting websites (e.g., social media, streaming).
 
 Prevents access to blocked sites during focused hours using chrome.webRequest.
 
-# 📊 Daily Reports
+**📊 Daily Reports**
 Generates a detailed daily summary of time spent per website.
 
 Displays aggregated data in an intuitive UI within the extension popup or a separate dashboard.
 
-# 🔄 Sync Across Devices
+**🔄 Sync Across Devices**
 Stores data securely using a MongoDB database.
 
 Ensures user preferences and data are consistent across devices.
 
 # 🧱 Tech Stack
-# Frontend (Chrome Extension)
+**Frontend (Chrome Extension)**
 
 JavaScript (Vanilla)
 
@@ -36,7 +36,7 @@ HTML5, CSS3
 
 Chrome Extension APIs (tabs, idle, storage, alarms, webRequest)
 
-# Backend (MERN Stack)
+**Backend (MERN Stack)**
 
 MongoDB: For storing activity logs and user preferences
 
@@ -86,12 +86,14 @@ PRODUCTIVITY-TRACKER/
 
 # 📦 Installation
 
-# 1. Clone the Repository
+**1. Clone the Repository**
 
-git clone https://github.com/yourusername/productivity-tracker.git
 cd productivity-tracker
 
-# 2. Setup the Backend Server
+git clone https://github.com/moparthimanasa/CHROME-EXTENSION-FOR-PRODUCTIVITY-MANAGEMENT.git
+
+
+**2. Setup the Backend Server**
 
 cd backend
 
@@ -105,7 +107,7 @@ MONGO_URI=mongodb://localhost:27017/productivity
 
 PORT=5000
 
-Then start the server:
+**Then start the server:**
 
 node server.js
 
@@ -113,7 +115,7 @@ Or use:
 
 npm run dev   # if using nodemon
 
-# 3. Load the Chrome Extension
+**3. Load the Chrome Extension**
    
 Go to chrome://extensions/
 
@@ -130,14 +132,15 @@ Click the extension icon → "View Report" opens React or localhost:5000/report
 # ⚙️ How It Works
 The Productivity Tracker Chrome Extension integrates the browser environment with a MERN stack backend to monitor, store, and analyze your web activity in real time. Here's how the system operates from extension events to database storage:
 
-# 🧠 Step-by-Step Breakdown
+**🧠 Step-by-Step Breakdown**
 
-# 1. Extension Starts
+**1. Extension Starts**
 When the Chrome extension is installed and activated, it begins monitoring your browser tabs through background.js.
 
 It uses the Chrome tabs.onActivated event to detect when you switch tabs.
 
-# 2. Tracking Time Spent
+**2. Tracking Time Spent**
+
 When a tab switch is detected:
 
 It notes the URL of the previously active tab.
@@ -153,7 +156,7 @@ POST http://localhost:5000/track
 Content-Type: application/json
 
 
-# 3. Backend Handling (server.js)
+**3. Backend Handling (server.js)**
 
 The Express server receives this request.
 
@@ -166,7 +169,8 @@ time: Seconds spent
 date: Timestamp of the record
 
 
-# 4. Data Stored in MongoDB
+**4. Data Stored in MongoDB**
+
 Example document:
 
 
@@ -182,7 +186,7 @@ Example document:
   
 }
 
-# 5. Displaying Data in Popup
+**5. Displaying Data in Popup**
 
 When the user opens the popup (via popup.html and popup.js):
 
@@ -208,26 +212,32 @@ You’ve blocked instagram.com, so it gets auto-blocked during work hours.
 
 The Productivity Tracker is off to a great start, tracking website usage and browsing habits. Here’s how we can take it further:
 
-# 1.User Authentication
+**1.User Authentication**
 Add secure login (JWT/OAuth) for personalized tracking and cross-device sync.
 
-# 2.Cloud Sync
+**2.Cloud Sync**
 Sync data across multiple devices to maintain unified productivity profiles.
 
-# 3.Weekly/Monthly Reports
+**3.Weekly/Monthly Reports**
 Generate detailed reports with trend graphs for better insights.
 
-# 4.Interactive Dashboard
+**4.Interactive Dashboard**
 Build a React dashboard for filtering, trend visualization, and quick insights.
 
-# 5.Custom Blocklist & Smart Blocking
+**5.Custom Blocklist & Smart Blocking**
 Allow user-defined blocklists and AI-driven distraction detection.
 
-# 6.Real-Time Notifications
+**6.Real-Time Notifications**
 Warn users when usage limits on sites are exceeded.
 
-# 7.Focus Mode
+**7.Focus Mode**
 Temporarily block distractions for high-focus periods.
 
-# 8.AI Productivity Suggestions
+**8.AI Productivity Suggestions**
 Offer AI-based tips for reducing distractions and optimizing work cycles.
+
+# Output
+
+we have to open the tab and go to extensions and click on productivity management extension and then click on view report 
+
+
